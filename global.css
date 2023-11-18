@@ -1,0 +1,28 @@
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: Questrial;
+    src: url(fonts/Questrial/Questrial-Regular.ttf);
+}
+@font-face {
+    font-family: JetBrains;
+    src: url(fonts/JetBrains/JetBrainsMono-Medium.ttf);
+}
+
+:root {
+    --colorText: #070e12;
+    --colorBackground: #f5fbff;
+    --colorPrimary: #174563;
+    --colorSecundary: #d2e6f4;
+    --colorTerciary: #e9eff4;
+    --colorAccent: #c40e20;
+
+    --dColorText: #e1f2fe;
+    --dColorBackground: #00060a;
+    --dColorPrimary: #9cc9e8;
+    --dColorSecundary: #0b1f2d;
+    --dColorTerciary: #0b1216;
+    --dColorAccent: #f13b4e;
+}

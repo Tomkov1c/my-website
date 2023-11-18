@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="global.css">
+    <title>Tom Kliner</title>
+</head>
+<body id="body" onload="MoveBackOnBeckPress()" onpre="MoveBackOnBeckPress()">
+    <section id="nav">
+        <div id="navButtonsWrapper">
+            <div class="navButton" onclick="ProjectsSection()" id="projectsButton"><p class="navButtonText">Projects</p></div>
+            <div id="groupedTopToBottomNavButtons">
+                <div onclick="AboutSection()" class="navButton" id="aboutButton"><p class="navButtonText">About</p></div>
+                <div onclick="SocialsSection()" class="navButton" id="contactButton"><p class="navButtonText">Socials</p></div>
+            </div>
+            <div onclick="WorkSection()" class="navButton" id="workButton"><p class="navButtonText">Work</p></div>
+        </div>
+    </section>
+    <section id="sectionAbout">
+        <div id="sectionAboutWrapper">
+            <h3 id="sectionAboutUppertitle">hi, i'm</h3>
+            <h1 id="sectionAboutTitle">TOM KLINER</h1>
+            <h3 id="sectionAboutSubtitle">A High School student with an intrest in UI/UX, Web Design, Programming, Graphic Design and Photography.
+                I also enjoy reading books and making and also reading comics, writing stories and making pixel art.<br><br>Take a look at my work, hope you like it 
+                and if you wish to cantact me, take a look at my Socials tabs for more contact options.</h3>
+            <a onclick="AboutSectionRem()" id="sectionAboutGoBackButton"><p id="sectionAboutGoBackButtonText">Go back</p></a>
+        </div>
+    </section>
+    <section id="sectionProjects">
+
+    </section>
+    <section id="sectionSocials">
+
+    </section>
+    <section id="sectionWork">
+
+    </section>
+</body>
+<script src="buttons.js"></script>
+</html>

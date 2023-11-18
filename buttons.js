@@ -63,3 +63,10 @@ function AboutSectionRem() {
     GetCurrentSection();
 
 }
+function ProjectsSectionRem() {
+    document.getElementById("body").classList.remove("bodyProjects");
+    document.location.hash = "#";
+
+    GetCurrentSection();
+
+}

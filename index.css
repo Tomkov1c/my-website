@@ -1,8 +1,11 @@
 * {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+
+    scrollbar-width: none;
 }
 html {
+    overflow: -moz-scrollbars-none;
     overflow: hidden;
 }
 body {
@@ -19,7 +22,9 @@ body {
     position: fixed;
 
     transition: margin-top 0.8s ease-in-out, margin-left 0.8s ease-in-out;
-
+}
+a {
+    text-decoration: none;
 }
 
 .bodyAbout {
@@ -50,6 +55,8 @@ body {
 section {
     width: 100vw;
     height: 100vh;
+
+    overflow: hidden;
 }
 
 #nav {
@@ -163,7 +170,8 @@ section {
     width: 100%;
     height: 100%;
 
-    background-color: #00060afa;
+    background-color: var(--dColorBackground);
+
 }
 #sectionAboutUppertitle {
     color: var(--dColorPrimary);
@@ -171,7 +179,7 @@ section {
     font-size: 0.9vw;
 
     margin-left: 2.5vw;
-    padding-top: 10vh;
+    padding-top: 15vh;
     padding-bottom: 0.5vh;
 }
 #sectionAboutTitle {
@@ -196,7 +204,7 @@ section {
     width: 37vw;
 }
 #sectionAboutGoBackButton {
-    position: relative;
+    position: absolute;
     display: inline-flex;
     color: var(--dColorAccent);
     
@@ -204,7 +212,7 @@ section {
 
     margin-left: 46vw;
     margin-right: auto;
-    margin-top: 40vh;
+    margin-top: 35vh;
     margin-bottom: 1vh;
 
     border: 1.5px solid var(--dColorAccent);
@@ -238,12 +246,206 @@ section {
 
 /*      Projects Section       */
 #sectionProjects {
-    background-color: antiquewhite;
+    background-color: var(--dColorBackground);
 
     grid-column: 1 / 1;
     grid-row: 2 / 2;
 }
+#sectionProjectsWrapper {
+    display: flex;
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+#sectionProjectsLSide {
+    width: 30%;
+    height: 100vh;
+    background-color: var(--dColorBackground);
+}
+#sectionProjectsProjectButtonsWrapper {
+    position: relative;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+.sectionProjectsProjectButton {
+    color: var(--dColorAccent);
+    font-family: Questrial;
+    font-size: 1.8vw;
+    font-weight: 1000;
 
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+    cursor: pointer;
+
+    transition: color 0.2s ease-in-out, padding-left 0.3s ease-in-out;
+}
+.sectionProjectsProjectButton:hover {
+    color: var(--dColorAccent);
+
+    padding-left: 3vw;
+}
+#sectionProjectsRSide {
+    width: 70%;
+    height: 100vh;
+    background-color: var(--dColorBackground);
+}
+#sectionProjectsProjectInfo {
+    width: 80%;
+    height: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    border-radius: 10px;
+
+
+}
+#sectionProjectsProjectTitle {
+    color: var(--dColorText);
+    font-family: Questrial;
+    font-size: 4vw;
+    font-weight: 1000;
+    width: fit-content;
+    margin-top: 0.9vh;
+
+    
+}
+
+#sectionProjectsProjectTags {
+    display: flex;
+
+    width: 100%;
+
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+
+    cursor: default;
+
+}
+.sectionProjectsProjectTag {
+    color: var(--dColorPrimary);
+    font-family: JetBrains;
+    font-size: 0.7vw;
+    font-weight: 900;
+
+    padding: 0.6vh 1vw;
+    margin-right: 0.4vw;
+
+    border-radius: 100vw;
+
+    border: 1px solid var(--dColorPrimary);
+}
+.sectionProjectsProjectParagraph {
+    position: relative;
+    color: var(--dColorText);
+    font-family: Questrial;
+    font-size: 1vw;
+    font-weight: 100;
+
+    margin-top: 1vh;
+
+    text-align: justify;
+}
+.sectionProjectsProjectImage {
+    position: relative;
+    width: 100%;
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    border-radius: 10px;
+}
+#sectionProjectsGoBackButton {
+    display: inline-flex;
+    color: var(--dColorAccent);
+    
+    width: 8vw;
+
+
+    border: 1.5px solid var(--dColorAccent);
+    border-radius: 100vw;
+
+    cursor: pointer;
+
+    transition: color 0.3s ease-in-out, filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+#sectionProjectsGoBackButton:hover{
+    color: var(--dColorBackground);
+    background-color: var(--dColorAccent);
+}
+#sectionProjectsGoBackButtonText {
+
+    font-family: Questrial;
+    font-size: 1vw;
+    font-weight: 900;
+
+    width: fit-content;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+#sectionProjectsProjectLinks {
+    width: 100%;
+    display: inline-flex;
+
+    margin-top: 5vh;
+}
+.sectionProjectsProjectLinkButton {
+    display: flex;
+
+    border: 1.5px solid var(--dColorAccent);
+    border-radius: 100vw;
+
+    padding: 1vh 1vw;
+    margin-right: 0.5vw;
+
+    cursor: pointer;
+
+    width: fit-content;
+
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.sectionProjectsProjectLinkButton:hover{
+    background-color: var(--dColorAccent);
+}
+.sectionProjectsProjectLinkButton:hover
+.sectionProjectsProjectLinkButtonIcon{
+    color: var(--dColorBackground);
+}
+.sectionProjectsProjectLinkButton:hover
+.sectionProjectsProjectLinkButtonText{
+    color: var(--dColorBackground);
+}
+.sectionProjectsProjectLinkButtonIcon {
+    color: var(--dColorAccent);
+
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.sectionProjectsProjectLinkButtonText {
+    font-family: Questrial;
+    font-size: 1vw;
+    font-weight: 100;
+
+    color: var(--dColorAccent);
+
+    margin-left: 0.5vw;
+
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+#sectionProjectsProjectInfoExtraSpace {
+    color: transparent;
+
+    border: 0px solid transparent;
+    height: 30vh;
+}
 
 /*      Socials Section       */
 #sectionSocials {

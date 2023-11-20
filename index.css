@@ -399,7 +399,7 @@ section {
     margin-top: 5vh;
 }
 .sectionProjectsProjectLinkButton {
-    display: flex;
+    display: inline-flex;
 
     border: 1.5px solid var(--dColorAccent);
     border-radius: 100vw;
@@ -426,6 +426,9 @@ section {
 }
 .sectionProjectsProjectLinkButtonIcon {
     color: var(--dColorAccent);
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
 
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }

@@ -56,3 +56,7 @@
 	background-color: transparent;
     display: none;
 }
+::selection {
+    color: var(--dColorBackground);
+    background-color: var(--dColorAccent);
+}

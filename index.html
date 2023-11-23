@@ -35,9 +35,9 @@
         <div id="sectionProjectsWrapper">
             <div id="sectionProjectsLSide">
                 <div id="sectionProjectsProjectButtonsWrapper">
-                    <h1 class="sectionProjectsProjectButton">Lapschool</h1>
-                    <h1 class="sectionProjectsProjectButton">R3cipes DS</h1>
-                    <h1 class="sectionProjectsProjectButton">Amidst the Twilight of Worlds</h1>
+                    <h1 class="sectionProjectsProjectButton" onclick="ProjectClick(this)">Lapschool</h1>
+                    <h1 class="sectionProjectsProjectButton" onclick="ProjectClick(this)">R3cipes DS</h1>
+                    <h1 class="sectionProjectsProjectButton" onclick="ProjectClick(this)">Amidst the Twilight of Worlds</h1>
                 </div>
                 <a onclick="ProjectsSectionRem()" id="sectionProjectsGoBackButton"><p id="sectionProjectsGoBackButtonText">Go back</p></a>
             </div>
@@ -103,10 +103,28 @@
         </div>
     </section>
     <section id="sectionSocials">
-
+        <a onclick="SocialsSectionRem()" id="sectionSocialsGoBackButton"><p id="sectionSocialsGoBackButtonText">Go back</p></a>
+        <div id="sectionSocialsSocialButtonsWrapper">
+            <div class="sectionSocialsSocialButton">
+                <div class="sectionSocialsSocialButtonIconWrapper"><i class="fa-solid fa-envelope sectionSocialsSocialButtonIcon"></i></div>
+                <h1 class="sectionSocialsSocialButtonName">E-Mail</h1>
+                <p class="sectionSocialsSocialButtonDesc">This is the way you can contact me for any questions you might have.</p>
+            </div>
+            <div class="sectionSocialsSocialButton">
+                <div class="sectionSocialsSocialButtonIconWrapper"><i class="fa-brands fa-github sectionSocialsSocialButtonIcon"></i></div>
+                <h1 class="sectionSocialsSocialButtonName">GitHub</h1>
+                <p class="sectionSocialsSocialButtonDesc">My projects are allways on github (if opensourced). If you want to see wht I am capable off, check it out.</p>
+            </div>
+            <div class="sectionSocialsSocialButton">
+                <div class="sectionSocialsSocialButtonIconWrapper"><i class="fa-brands fa-behance sectionSocialsSocialButtonIcon"></i></div>
+                <h1 class="sectionSocialsSocialButtonName">Behance</h1>
+                <p class="sectionSocialsSocialButtonDesc">I use Adobe products so I'll just post the designs and everything made with Adobe onto Behance. It acts like my design portfolio but not really.</p>
+            </div>
+        </div>
     </section>
     <section id="sectionWork">
-
+        <h1 id="sectionWorkDisclaimer">// I have not worked in any companies/corporations/organizations due to me still beeing a student. This is my resume for those who would like to comission me for something.</h1>
+        <p id="sectionWorkResume"></p>
     </section>
 </body>
 <script src="buttons.js"></script>

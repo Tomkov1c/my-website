@@ -25,6 +25,7 @@
     --dColorSecundary: #0b1f2d;
     --dColorTerciary: #0b1216;
     --dColorAccent: #f13b4e;
+    --dColorComment: #282c2f;
     --dColorIDK: #E2E1B9;
 }
 ::-moz-scrollbar {

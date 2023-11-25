@@ -131,6 +131,9 @@ section {
     cursor: pointer;
 
 
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .navButton:hover {
@@ -289,6 +292,9 @@ section {
     margin-bottom: 1vh;
 
     cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 
     transition: color 0.2s ease-in-out, padding-left 0.3s ease-in-out, border-left 0.3s ease-in-out;
 }
@@ -324,6 +330,7 @@ section {
     width: 100%;
     margin-top: 0.9vh;
 
+
 }
 
 #sectionProjectsProjectTags {
@@ -349,6 +356,10 @@ section {
     border-radius: 100vw;
 
     border: 1px solid var(--dColorPrimary);
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 .sectionProjectsProjectParagraph {
     position: relative;
@@ -455,14 +466,55 @@ section {
 
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+.sectionProjectsProjectAuthorsNote {
+    position: relative;
+    color: var(--dColorText);
+    font-family: Questrial;
+    font-size: 1vw;
+    font-weight: 100;
+
+    margin-top: 6vh;
+
+    text-align: justify;
+
+    opacity: 0.3;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
 #sectionProjectsProjectInfoExtraSpace {
     color: transparent;
 
     border: 0px solid transparent;
-    height: 30vh;
+    height: 5vh;
 }
 
-/*      Socials Section       */
+#sectionProjectsProjectInfo > h2 {
+    position: relative;
+    color: var(--dColorText);
+    font-family: Questrial;
+    font-size: 1.5vw;
+    font-weight: 800;
+
+    margin-top: 2vh;
+
+}
+#sectionProjectsProjectInfo > h3 {
+    color: var(--dColorText);
+    font-family: Questrial;
+    font-size: 1.3vw;
+    font-weight: 800;
+}
+
+
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*                              */
+/*      Socials Section         */
 #sectionSocials {
     background-color: var(--dColorBackground);
 
@@ -537,6 +589,9 @@ section {
     border: 1px solid var(--dColorAccent);
 
     cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 }
@@ -628,7 +683,6 @@ section {
     font-family: JetBrains;
     font-size: 0.7vw;    
 
-    opacity: 0.2;
 }
 #sectionWorkResume {
     width: 88%;

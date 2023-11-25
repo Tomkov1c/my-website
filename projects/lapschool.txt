@@ -1,0 +1,45 @@
+<h1 id="sectionProjectsProjectTitle">Lapschool</h1>
+                    <div id="sectionProjectsProjectTags">
+                        <p class="sectionProjectsProjectTag">HTML</p>
+                        <p class="sectionProjectsProjectTag">CSS</p>
+                        <p class="sectionProjectsProjectTag">JavaScript (Vanilla)</p>
+                    </div>
+                    <p class="sectionProjectsProjectParagraph">So in my 3rd year of highschool, I constatntly had to carry
+                        some paper database idagrams to my class. I used a latop to take notes and after sometime it
+                        became anoying to carry that one specific piece of paper around, so it thought "Why not just
+                        digitize it?", so I did. It accured to me that other students may have the same problem.
+                        <br>
+                        This is the result. Lapschool is just a place where you can find a lot of diagrams,tools and more 
+                        digitalized and interactible on a computer so you wont have to carry anything with you to classes,
+                        just your laptop.
+                    </p>
+                    <img src="projects/lapschool/periodic-table.png" alt="" class="sectionProjectsProjectImage">
+                    <h2>The Periodic Table</h2>
+                    <p class="sectionProjectsProjectParagraph">This is currently the only ported "tool". It has everything that
+                        a regular paper periodic table would have but I added a feature a new feature. You can click on the
+                        element and the site will display some addititional information. I am no chemist and all data is used
+                        from Wikipedia, so please report any mistakes you find.
+                    </p>
+                    <img src="projects/lapschool/periodic-table-element.png" alt="" class="sectionProjectsProjectImage">
+                    <p class="sectionProjectsProjectParagraph">This project is still in the early deverlopment. Any
+                        updates are probbably gonna be documented on this page. If you like the idea of this project, please
+                        consider contacting me and let me know if you have any ideas on what to add to the site.
+                    </p>
+                    <div id="sectionProjectsProjectLinks">
+                        <a href="" class="sectionProjectsProjectLinkButton">
+                            <i class="fa-solid fa-arrow-up-right-from-square sectionProjectsProjectLinkButtonIcon"></i>
+                            <p class="sectionProjectsProjectLinkButtonText">External (WHEN FINISHED)</p>
+                        </a>
+                        <a href="" class="sectionProjectsProjectLinkButton">
+                            <i class="fa-brands fa-github sectionProjectsProjectLinkButtonIcon"></i>
+                            <p class="sectionProjectsProjectLinkButtonText">GitHub (WHEN FINISHED)</p>
+                        </a>
+                    </div>
+                    <p class="sectionProjectsProjectAuthorsNote"> Yes, I am using Linux. I use Fedora BTW 🤓.
+                        <br><br>Yes this is GNOME web browser.
+                        I only use it for showcase purposes and not for personal use. Why for showcase?
+                        Because I think it looks better than Google Chrome in those screenshots. Why not for personal use?
+                        Because it doesnt have an extention that I realy need; I'm just used to Chrome and dont really 
+                        need to switch right now and Epiphny (GNOME web browser) isn't avalible on Windows anyway so a big no for me.
+                    </p>
+                    <hr id="sectionProjectsProjectInfoExtraSpace">

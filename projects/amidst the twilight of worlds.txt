@@ -1,0 +1,13 @@
+<h1 id="sectionProjectsProjectTitle">Amidst the Twilight of Worlds</h1>
+                    <div id="sectionProjectsProjectTags">
+                        <p class="sectionProjectsProjectTag">Pixel Art</p>
+                        <p class="sectionProjectsProjectTag">Comic</p>
+                        <p class="sectionProjectsProjectTag">Story</p>
+                    </div>
+                    <p class="sectionProjectsProjectParagraph">I enjoy reading horror books and pixel art. I wanted to combine
+                        the two, so I did and decided to make one myself. At the time of writing this I cannot guarantee anything
+                        story-wise so just check my social media for any post about it.
+                    </p>
+                    <p class="sectionProjectsProjectParagraph">The only thing I can show you is the cover art so here.</p>
+                    <img src="projects/amidst the twilight of worlds/cover.png" alt="" class="sectionProjectsProjectImage">
+                    <hr id="sectionProjectsProjectInfoExtraSpace">

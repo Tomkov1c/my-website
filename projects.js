@@ -1,5 +1,9 @@
-function Lapschool () {
-    var filePath = 'projects/lapschool.txt';
+function DisplayProject (e) {
+    var inner = event.target.innerHTML;
+    let string = inner.toLowerCase();
+
+    let path = string + ".txt";
+    var filePath = 'projects/' + path;
     fetch(filePath)
     .then(response => response.text())
     .then(content => {
@@ -7,4 +11,5 @@ function Lapschool () {
     })
 
     document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
+
 }

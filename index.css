@@ -163,7 +163,7 @@ section {
     grid-column: 2 / 2;
     grid-row: 1 / 1;
 
-    background-image: url(images/aboutBackground.svg);
+    display: flex;
     
 }
 ::selection {
@@ -175,7 +175,24 @@ section {
     width: 100%;
     height: 100%;
 
+    margin-left: 2.5vw;
+    margin-top: 6vh;
     background-color: var(--dColorBackground);
+
+}
+#sectionAboutProfileImage {
+    position: relative;
+
+    width: 20vw;
+    height: 20vw;
+
+    margin: 13vw 0;
+    margin-right: 20vw;
+
+    border-radius: 100vw;
+    outline: 4px var(--dColorBackground) solid;
+    outline-offset: 3px;
+    box-shadow: 0px 0px 248px -39px rgba(156,201,232,1);
 
 }
 #sectionAboutUppertitle {
@@ -215,9 +232,9 @@ section {
     
     width: 8vw;
 
-    margin-left: 46vw;
+    left: 48%;
     margin-right: auto;
-    margin-top: 35vh;
+    margin-top: 27vh;
     margin-bottom: 1vh;
 
     border: 1.5px solid var(--dColorAccent);
@@ -368,13 +385,58 @@ section {
     font-size: 1vw;
     font-weight: 100;
 
-    margin-top: 1vh;
+    margin-top: 0.5vh;
 
     text-align: justify;
+}
+.sectionProjectsProjectParagraph a {
+    position: relative;
+    color: var(--dColorText);
+    font-family: Questrial;
+    font-size: 1vw;
+    font-weight: 100;
+
+    text-decoration: underline;
+}
+blockquote {
+    position: relative;
+    color: var(--dColorText);
+    font-family: Questrial;
+    font-size: 1vw;
+    font-weight: 100;
+
+    font-style: italic;
+
+    padding: 1vh 0;
+    padding-left: 1vw;
+    margin-top: 2vh;
+    border-left: 2px var(--dColorText) solid;
 }
 .sectionProjectsProjectImage {
     position: relative;
     width: 100%;
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    border-radius: 10px;
+}
+.sectionProjectsProjectImage-half {
+    position: relative;
+    width: 50%;
+
+    margin: 0 25%;
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    border-radius: 10px;
+}
+.sectionProjectsProjectImage-fourth {
+    position: relative;
+    width: 75%;
+
+    margin: 0 7.5%;
 
     margin-top: 2vh;
     margin-bottom: 2vh;
@@ -494,17 +556,27 @@ section {
     position: relative;
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1.5vw;
-    font-weight: 800;
+    font-size: 1.8vw;
+    font-weight: 900;
 
-    margin-top: 2vh;
+    margin-top: 4vh;
 
 }
 #sectionProjectsProjectInfo > h3 {
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1.3vw;
-    font-weight: 800;
+    font-size: 1.2vw;
+    font-weight: 700;
+
+    margin-top: 3vh;
+}
+#sectionProjectsProjectInfo > h4 {
+    color: var(--dColorText);
+    font-family: Questrial;
+    font-size: 1vw;
+    font-weight: 700;
+
+    margin-top: 3vh;
 }
 
 
@@ -529,7 +601,7 @@ section {
     width: 8vw;
 
     position: relative;
-    margin-left: 46vw;
+    left: 44%;
     margin-right: auto;
     margin-top: 2vh;
 
@@ -564,7 +636,7 @@ section {
 #sectionSocialsSocialButtonsWrapper {
     background-color: var(--dColorBackground);
     position: relative;
-    width: 80vw;
+    width: 90vw;
     height: 70vh;
 
     margin: 10vh auto auto auto;
@@ -576,7 +648,7 @@ section {
     position: relative;
     
     height: 90%;
-    width: 25%;
+    width: 20%;
     
     top: 5%;
     padding: 1% 1%;
@@ -686,7 +758,6 @@ section {
 }
 #sectionWorkResume {
     width: 88%;
-    height: 87%;
 
     padding: 1%;
 
@@ -698,7 +769,7 @@ section {
 
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1.7vw;  
+    font-size: 1.2vw;  
     overflow: scroll;
 
     text-align: justify;
@@ -707,5 +778,41 @@ section {
     color: transparent;
 
     border: 0px solid transparent;
-    height: 40vh;
+}
+#sectionWorkGoBackButton {
+    display: inline-flex;
+    color: var(--dColorAccent);
+    
+    width: 8vw;
+
+    margin-left: 6vw;
+    margin-right: auto;
+    margin-top: 12vh;
+
+    border: 1.5px solid var(--dColorAccent);
+    border-radius: 100vw;
+
+    cursor: pointer;
+
+    transition: color 0.3s ease-in-out, filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+#sectionWorkGoBackButton:hover{
+    color: var(--dColorBackground);
+    background-color: var(--dColorAccent);
+}
+#sectionWorkGoBackButtonText {
+
+    font-family: Questrial;
+    font-size: 1vw;
+    font-weight: 900;
+
+    width: fit-content;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
 }

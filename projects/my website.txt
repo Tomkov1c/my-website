@@ -1,0 +1,68 @@
+<h1 id="sectionProjectsProjectTitle">My Website</h1>
+<div id="sectionProjectsProjectTags">
+    <p class="sectionProjectsProjectTag">HTML</p>
+    <p class="sectionProjectsProjectTag">CSS</p>
+    <p class="sectionProjectsProjectTag">JavaScript (Vanilla)</p>
+</div>
+<p class="sectionProjectsProjectParagraph">
+    <strong>The website is not yet optimized for other screens.</strong>
+</p>
+<p class="sectionProjectsProjectParagraph">
+    As a graphic designer, web designer, and aspiring programmer, I needed a place to showcase my skills and projects.
+    Since I have a basic understanding of HTML, CSS, and a little JavaScript, I decided to create my portfolio website.
+</p>
+<h2>Design</h2>
+<p class="sectionProjectsProjectParagraph">
+    I aimed to create something unique. It took me four attempts to finally design something I liked – not too complicated,
+    yet not overly simple in terms of page structure. Inspiration came from various sites on <a href="https://www.awwwards.com/" target="_blank">awwwards.com</a>,
+    but none really resonated with me.
+</p>
+<img src="projects/my website/directory.png" alt="" class="sectionProjectsProjectImage">
+<h3>Colors</h3>
+<blockquote>
+    "Stop. using. purple."
+    <br>
+    <br>
+    -Juxtopposed
+</blockquote>
+<p class="sectionProjectsProjectParagraph">
+    I agree (without context). Purple has become a widely used portfolio color, and I wanted to be different.
+    I chose a non-purple color palette that I thought would look good on my portfolio.
+</p>
+<h2>Pages</h2>
+<p class="sectionProjectsProjectParagraph">
+    I only need 4 pages, no more, no less. One about me, one about my projects, one about my socials, and
+    one for my work experience (don't have any yet).
+</p>
+<h3>About</h3>
+<p class="sectionProjectsProjectParagraph">
+    Some quick info about me.
+</p>
+<h3>Projects</h3>
+<p class="sectionProjectsProjectParagraph">
+    Lists my projects and provides some explanation and "documentation" with links or images for viewing.
+</p>
+<h3>Socials</h3>
+<p class="sectionProjectsProjectParagraph">
+    All my socials and contact information are listed with a description of what I post or use each platform for.
+</p>
+<h3>Work</h3>
+<p class="sectionProjectsProjectParagraph">
+    Currently contains my short résumé. You can help me expand this page by hiring me 😉.
+</p>
+<br>
+<img src="projects/my website/home.png" alt="" class="sectionProjectsProjectImage">
+<p class="sectionProjectsProjectParagraph">
+    I think that the fourth attempt turned out great. Hope you like it.
+</p>
+<div id="sectionProjectsProjectLinks">
+    <a href="https://tomkliner.com/" target="_blank" class="sectionProjectsProjectLinkButton">
+        <i class="fa-solid fa-arrow-up-right-from-square sectionProjectsProjectLinkButtonIcon"></i>
+        <p class="sectionProjectsProjectLinkButtonText">External</p>
+    </a>
+    <a href="https://github.com/Tomkov1c/my-website" target="_blank" class="sectionProjectsProjectLinkButton">
+        <i class="fa-brands fa-github sectionProjectsProjectLinkButtonIcon"></i>
+        <p class="sectionProjectsProjectLinkButtonText">GitHub</p>
+    </a>
+</div>
+<hr id="sectionProjectsProjectInfoExtraSpace">

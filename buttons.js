@@ -54,6 +54,7 @@ function ProjectsSection() {
     document.location.hash = "#sectionProjects";
 
     GetCurrentSection();
+    document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
 
 }
 function SocialsSection() {
@@ -87,6 +88,13 @@ function ProjectsSectionRem() {
 }
 function SocialsSectionRem() {
     document.getElementById("body").classList.remove("bodySocials");
+    document.location.hash = "#";
+
+    GetCurrentSection();
+
+}
+function WorkSectionRem() {
+    document.getElementById("body").classList.remove("bodyWork");
     document.location.hash = "#";
 
     GetCurrentSection();

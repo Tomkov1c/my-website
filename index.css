@@ -66,7 +66,7 @@ section {
     grid-row: 2 / 2;
 }
 #navButtonsWrapper {
-    width: 95vw;
+    width: 98vw;
     height: 85vh;
 
     margin: 7.5vh 2.5vw;
@@ -107,9 +107,8 @@ section {
 #workButton {
     height: 100%;
 
-    width: calc(100% / 3);
-    
-    margin-right: 2vw;
+    width: calc((100% / 3) - 4vw);
+
     margin-left: 2vw;
     
 
@@ -187,7 +186,7 @@ section {
     height: 20vw;
 
     margin: 13vw 0;
-    margin-right: 20vw;
+    margin-right: 14vw;
 
     border-radius: 100vw;
     outline: 4px var(--dColorBackground) solid;
@@ -232,7 +231,7 @@ section {
     
     width: 8vw;
 
-    left: 48%;
+    left: 48.65%;
     margin-right: auto;
     margin-top: 27vh;
     margin-bottom: 1vh;
@@ -601,7 +600,7 @@ blockquote {
     width: 8vw;
 
     position: relative;
-    left: 44%;
+    left: 45.8%;
     margin-right: auto;
     margin-top: 2vh;
 

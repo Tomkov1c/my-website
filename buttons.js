@@ -23,13 +23,13 @@ function MoveBackOnBeckPress() {
         document.getElementById("body").classList.remove("bodyProjects");
         document.getElementById("body").classList.remove("bodySocials");
         document.getElementById("body").classList.remove("bodyWork");
-    }else if(document.location.hash == "#sectionProjects") {
+    }else if(document.location.hash == "#Projects") {
         document.getElementById("body").classList.add("bodyProjects");
-    }else if(document.location.hash == "#sectionSocials") {
+    }else if(document.location.hash == "#Socials") {
         document.getElementById("body").classList.add("bodySocials");
-    }else if(document.location.hash == "#sectionAbout") {
+    }else if(document.location.hash == "#About") {
         document.getElementById("body").classList.add("bodyAbout");
-    }else if(document.location.hash == "#sectionWork") {
+    }else if(document.location.hash == "#Work") {
         document.getElementById("body").classList.add("bodyWork");
     }else {
 
@@ -44,14 +44,14 @@ function GetCurrentSection() {
 
 function AboutSection() {
     document.getElementById("body").classList.add("bodyAbout");
-    document.location.hash = "#sectionAbout";
+    document.location.hash = "#About";
 
     GetCurrentSection();
 
 }
 function ProjectsSection() {
     document.getElementById("body").classList.add("bodyProjects");
-    document.location.hash = "#sectionProjects";
+    document.location.hash = "#Projects";
 
     GetCurrentSection();
     document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
@@ -59,14 +59,14 @@ function ProjectsSection() {
 }
 function SocialsSection() {
     document.getElementById("body").classList.add("bodySocials");
-    document.location.hash = "#sectionSocials";
+    document.location.hash = "#Socials";
 
     GetCurrentSection();
 
 }
 function WorkSection() {
     document.getElementById("body").classList.add("bodyWork");
-    document.location.hash = "#sectionWork";
+    document.location.hash = "#Work";
 
     GetCurrentSection();
 
@@ -101,27 +101,3 @@ function WorkSectionRem() {
 
 }
 
-
-
-function ProjectClick(e) {
-    var inner = event.target.innerHTML;
-
-
-
-    var projectButtons = document.getElementsByClassName("sectionProjectsProjectButtonActive");
-    for (let i = 0; i < projectButtons.length; i++) {
-        projectButtons[i].classList.remove("sectionProjectsProjectButtonActive");
-    }
-
-    projectButtons = document.getElementsByClassName("sectionProjectsProjectButton");
-    for (let i = 0; i < projectButtons.length; i++) {
-        projectButtons[i].id = "";
-    }
-    event.target.id = "sectionProjectsProjectButtonActive";
-    for (let i = 0; i < projectButtons.length; i++) {
-        if (projectButtons[i].id != "sectionProjectsProjectButtonActive") {
-            projectButtons[i].classList.add("sectionProjectsProjectButtonInactive");
-        }
-    }
-    document.getElementById("sectionProjectsProjectButtonActive").classList.remove("sectionProjectsProjectButtonInactive");
-}

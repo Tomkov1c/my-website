@@ -13,3 +13,25 @@ function DisplayProject (e) {
     document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
 
 }
+
+function ProjectClick(e) {
+    var inner = event.target.innerHTML;
+
+    var projectButtons = document.getElementsByClassName("sectionProjectsProjectButtonActive");
+    for (let i = 0; i < projectButtons.length; i++) {
+        projectButtons[i].classList.remove("sectionProjectsProjectButtonActive");
+    }
+    projectButtons = document.getElementsByClassName("sectionProjectsProjectButton");
+    for (let i = 0; i < projectButtons.length; i++) {
+        projectButtons[i].id = "";
+    }
+
+    event.target.id = "sectionProjectsProjectButtonActive";
+    for (let i = 0; i < projectButtons.length; i++) {
+        if (projectButtons[i].id != "sectionProjectsProjectButtonActive") {
+            projectButtons[i].classList.add("sectionProjectsProjectButtonInactive");
+        }
+    }
+    
+    document.getElementById("sectionProjectsProjectButtonActive").classList.remove("sectionProjectsProjectButtonInactive");
+}

@@ -1,4 +1,4 @@
-<h1 id="sectionProjectsProjectTitle">My Website</h1>
+<h1 id="sectionProjectsProjectTitle">My website</h1>
 <div id="sectionProjectsProjectTags">
     <p class="sectionProjectsProjectTag">HTML</p>
     <p class="sectionProjectsProjectTag">CSS</p>

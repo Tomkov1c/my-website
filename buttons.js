@@ -74,28 +74,28 @@ function WorkSection() {
 
 function AboutSectionRem() {
     document.getElementById("body").classList.remove("bodyAbout");
-    document.location.hash = "#";
+    document.location.hash = "";
 
     GetCurrentSection();
 
 }
 function ProjectsSectionRem() {
     document.getElementById("body").classList.remove("bodyProjects");
-    document.location.hash = "#";
+    document.location.hash = "";
 
     GetCurrentSection();
 
 }
 function SocialsSectionRem() {
     document.getElementById("body").classList.remove("bodySocials");
-    document.location.hash = "#";
+    document.location.hash = "";
 
     GetCurrentSection();
 
 }
 function WorkSectionRem() {
     document.getElementById("body").classList.remove("bodyWork");
-    document.location.hash = "#";
+    document.location.hash = "";
 
     GetCurrentSection();
 

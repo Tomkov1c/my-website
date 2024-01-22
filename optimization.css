@@ -5,6 +5,91 @@
 /*                                          */
 /*                                      */
 /*                                  */
+/*          About               */
+@media screen and (max-width: 1000px) and (orientation: portrait){ 
+    #sectionAboutProfileImage {
+        display: none;
+    }
+    #sectionAboutUppertitle {
+        color: var(--dColorPrimary);
+        font-family: JetBrains;
+        font-size: 1.2rem;
+    
+        margin-left: 2.5vw;
+        padding-top: 5vh;
+        padding-bottom: 0.5vh;
+    }
+    #sectionAboutTitle {
+        color: var(--dColorText);
+        font-family: Questrial;
+        font-size: 5rem;
+        font-weight: 1000;
+        
+        width: 1vw;
+    
+        margin-left: 2.5vw;
+    }
+    #sectionAboutSubtitle {
+        color: var(--dColorText);
+        font-family: Questrial;
+        font-size: 1.3rem;
+        font-weight: 200;
+    
+        margin-left: 2.5vw;
+        margin-top: 2vh;
+    
+        width: 90%;
+    }
+    #sectionAboutGoBackButton {
+        position: absolute;
+        display: inline-flex;
+        color: var(--dColorAccent);
+        
+        width: 10rem;
+    
+        left: 42.65%;
+        margin-right: auto;
+        margin-top: 20vh;
+        margin-bottom: 8vh;
+    
+        border: 1.5px solid var(--dColorAccent);
+        border-radius: 100vw;
+    
+        cursor: pointer;
+    
+        transition: color 0.3s ease-in-out, filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    }
+    #sectionAboutGoBackButton:hover{
+        color: var(--dColorBackground);
+        background-color: var(--dColorAccent);
+    }
+    #sectionAboutGoBackButtonText {
+    
+        font-family: Questrial;
+        font-size: 1.3rem;
+        font-weight: 900;
+    
+        width: fit-content;
+    
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    
+
+}
+
+/*                                                          */
+/*                                                      */
+/*                                                  */
+/*                                              */
+/*                                          */
+/*                                      */
+/*                                  */
 /*          Projects            */
 
 @media screen and (max-width: 1000px) and (orientation: portrait){
@@ -349,8 +434,71 @@
     #sectionWorkGoBackButton {
         margin-bottom: 10vh;
     }
+    #sectionWorkResume {
+        width: 88%;
+    
+        padding: 1%;
+    
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        border-radius: 10px;
+    
+        color: var(--dColorText);
+        font-family: Questrial;
+        font-size: 1.3rem;  
+        overflow: scroll;
+    
+        text-align: left;
+    }
+    #sectionWorkGoBackButton {
+        display: inline-flex;
+        color: var(--dColorAccent);
+        
+        width: 8rem;
+    
+        margin-left: 6vw;
+        margin-right: auto;
+        margin-top: 12vh;
+    
+        border: 1.5px solid var(--dColorAccent);
+        border-radius: 100vw;
+    
+        cursor: pointer;
+    
+        transition: color 0.3s ease-in-out, filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    }
+    #sectionWorkGoBackButton:hover{
+        color: var(--dColorBackground);
+        background-color: var(--dColorAccent);
+    }
+    #sectionWorkGoBackButtonText {
+
+        font-family: Questrial;
+        font-size: 1rem;
+        font-weight: 900;
+    
+        width: fit-content;
+    
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding: 1.1rem 0;
+    }
 }
 
+
+/*                                                          */
+/*                                                      */
+/*                                                  */
+/*                                              */
+/*                                          */
+/*                                      */
+/*                                  */
+/*          Socials              */
 @media screen and (max-width: 1400px) and (orientation: portrait){
     #sectionSocials {
         background-color: var(--dColorBackground);

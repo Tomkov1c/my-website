@@ -1,3 +1,7 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 @font-face {
     font-family: PlayfairDisplay;
     src: url(fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf);

@@ -1,4 +1,4 @@
-resume = "<strong>Dear Sir or Madam!</strong><br><br>\
+resume = "<h2>Dear Sir or Madam!</h2><br><br>\
 I am writing this letter to express my profound motivation and commitment to pursuing excellence in the field of technology, and to showcase my enthusiasm for contributing my skills to a dynamic and forward-thinking company.<br><br>\
 As a current student at the School of Electrical and Computer Engineering Velenje, I have not only acquired a solid foundation in the technical aspects of computing but have also cultivated a deep passion for web development and creative endeavors. My proficiency in programming languages such as C++, C#, and JavaScript, coupled with hands-on experience in web development technologies like HTML, CSS, PHP, and MySQL, positions me as a versatile and capable candidate.<br><br>\
 In addition to my technical skills, I am well-versed in utilizing design tools like Photoshop, Illustrator, Lightroom, and Figma, showcasing a keen eye for aesthetics and creativity. My familiarity with video editing tools such as Premier Pro and After Effects adds an extra dimension to my skill set.<br><br>\

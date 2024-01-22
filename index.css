@@ -197,7 +197,7 @@ section {
 #sectionAboutUppertitle {
     color: var(--dColorPrimary);
     font-family: JetBrains;
-    font-size: 0.9vw;
+    font-size: 1.2rem;
 
     margin-left: 2.5vw;
     padding-top: 15vh;
@@ -206,7 +206,7 @@ section {
 #sectionAboutTitle {
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 6vw;
+    font-size: 8rem;
     font-weight: 1000;
     
     width: 1vw;
@@ -216,7 +216,7 @@ section {
 #sectionAboutSubtitle {
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 200;
 
     margin-left: 2.5vw;
@@ -229,7 +229,7 @@ section {
     display: inline-flex;
     color: var(--dColorAccent);
     
-    width: 8vw;
+    width: 10rem;
 
     left: 48.65%;
     margin-right: auto;
@@ -250,7 +250,7 @@ section {
 #sectionAboutGoBackButtonText {
 
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 900;
 
     width: fit-content;
@@ -746,7 +746,7 @@ blockquote {
 
     overflow-y: auto !important;
 
-    
+
 }
 #sectionWorkDisclaimer {
     margin-top: 2.5%;
@@ -766,7 +766,7 @@ blockquote {
 
     padding: 1%;
 
-    margin-top: 0.5%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
 

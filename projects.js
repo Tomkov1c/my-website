@@ -10,7 +10,9 @@ function DisplayProject (e) {
         document.getElementById('sectionProjectsProjectInfo').innerHTML = content;
     })
 
-    document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
+    if (document.body.clientWidth < 1000) {
+        document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
+    }
 
 }
 

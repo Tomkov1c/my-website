@@ -38,7 +38,6 @@ function MoveBackOnBeckPress() {
 
 function GetCurrentSection() {
     var currentSection = document.getElementById("body").className.split(" ");
-    console.log(currentSection);
 }
 
 
@@ -54,7 +53,12 @@ function ProjectsSection() {
     document.location.hash = "#Projects";
 
     GetCurrentSection();
-    document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
+    
+    if (document.body.clientWidth < 1000) {
+        document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
+        document.getElementById("sectionProjectsLSide").style.display = "none";
+
+    }
 
 }
 function SocialsSection() {

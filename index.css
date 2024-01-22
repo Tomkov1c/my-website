@@ -341,7 +341,7 @@ section {
 #sectionProjectsProjectTitle {
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 4vw;
+    font-size: 5rem;
     font-weight: 1000;
     width: 100%;
     margin-top: 0.9vh;
@@ -359,11 +359,13 @@ section {
 
     cursor: default;
 
+    text-align: center;
+
 }
 .sectionProjectsProjectTag {
     color: var(--dColorPrimary);
     font-family: JetBrains;
-    font-size: 0.7vw;
+    font-size: 0.9rem;
     font-weight: 900;
 
     padding: 0.6vh 1vw;
@@ -381,7 +383,7 @@ section {
     position: relative;
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 100;
 
     margin-top: 0.5vh;
@@ -392,7 +394,7 @@ section {
     position: relative;
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 100;
 
     text-decoration: underline;
@@ -401,7 +403,7 @@ blockquote {
     position: relative;
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 100;
 
     font-style: italic;
@@ -518,7 +520,7 @@ blockquote {
 }
 .sectionProjectsProjectLinkButtonText {
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 100;
 
     color: var(--dColorAccent);
@@ -531,7 +533,7 @@ blockquote {
     position: relative;
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 100;
 
     margin-top: 6vh;
@@ -555,7 +557,7 @@ blockquote {
     position: relative;
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1.8vw;
+    font-size: 2.1rem;
     font-weight: 900;
 
     margin-top: 4vh;
@@ -564,7 +566,7 @@ blockquote {
 #sectionProjectsProjectInfo > h3 {
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1.2vw;
+    font-size: 1.3rem;
     font-weight: 700;
 
     margin-top: 3vh;
@@ -572,7 +574,7 @@ blockquote {
 #sectionProjectsProjectInfo > h4 {
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 700;
 
     margin-top: 3vh;
@@ -684,7 +686,7 @@ blockquote {
 .sectionSocialsSocialButtonName {
     color: var(--dColorAccent);
     font-family: Questrial;
-    font-size: 3vw;
+    font-size: 3.8rem;
     font-weight: 900;
 
     width: 100%;
@@ -722,7 +724,7 @@ blockquote {
     margin-right: auto;
     color: var(--dColorAccent);
     font-family: JetBrains;
-    font-size: 0.7vw;
+    font-size: 1rem;
 
     position: relative;
 
@@ -741,6 +743,10 @@ blockquote {
 
     grid-column: 3 / 3;
     grid-row: 2 / 2;
+
+    overflow-y: auto !important;
+
+    
 }
 #sectionWorkDisclaimer {
     margin-top: 2.5%;
@@ -752,7 +758,7 @@ blockquote {
 
     color: var(--dColorPrimary);
     font-family: JetBrains;
-    font-size: 0.7vw;    
+    font-size: 0.9rem;    
 
 }
 #sectionWorkResume {
@@ -768,7 +774,7 @@ blockquote {
 
     color: var(--dColorText);
     font-family: Questrial;
-    font-size: 1.2vw;  
+    font-size: 1.5rem;  
     overflow: scroll;
 
     text-align: justify;
@@ -782,7 +788,7 @@ blockquote {
     display: inline-flex;
     color: var(--dColorAccent);
     
-    width: 8vw;
+    width: 10rem;
 
     margin-left: 6vw;
     margin-right: auto;
@@ -802,7 +808,7 @@ blockquote {
 #sectionWorkGoBackButtonText {
 
     font-family: Questrial;
-    font-size: 1vw;
+    font-size: 1.3rem;
     font-weight: 900;
 
     width: fit-content;
@@ -812,6 +818,5 @@ blockquote {
     margin-left: auto;
     margin-right: auto;
 
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
+    padding: 1.1rem 0;
 }

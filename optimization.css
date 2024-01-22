@@ -5,6 +5,37 @@
 /*                                          */
 /*                                      */
 /*                                  */
+/*          Main                */
+@media screen and (max-width: 1000px) and (orientation: portrait){ 
+    #navButtonsWrapper {
+        width: 95vw;
+        height: 95vh;
+
+        margin: 2.5vh 2.5vw;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .navButton {
+        max-width: 90%;
+
+        max-height: 22%;
+
+        margin: auto auto;
+    }
+    .navButtonText {
+        font-size: 1.7rem;
+    }
+}
+
+/*                                                          */
+/*                                                      */
+/*                                                  */
+/*                                              */
+/*                                          */
+/*                                      */
+/*                                  */
 /*          About               */
 @media screen and (max-width: 1000px) and (orientation: portrait){ 
     #sectionAboutProfileImage {
@@ -41,22 +72,22 @@
         width: 90%;
     }
     #sectionAboutGoBackButton {
-        position: absolute;
-        display: inline-flex;
+        position: relative;
+        display: block;
         color: var(--dColorAccent);
         
         width: 10rem;
-    
-        left: 42.65%;
+
         margin-right: auto;
-        margin-top: 20vh;
-        margin-bottom: 8vh;
-    
+        margin-left: auto;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+
         border: 1.5px solid var(--dColorAccent);
         border-radius: 100vw;
-    
+
         cursor: pointer;
-    
+
         transition: color 0.3s ease-in-out, filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
     }
     #sectionAboutGoBackButton:hover{
@@ -512,21 +543,22 @@
     }
     
     #sectionSocialsGoBackButton {
-        display: inline-flex;
+        position: relative;
+        display: block;
         color: var(--dColorAccent);
         
         width: 10rem;
-    
-        position: relative;
-        left: 39.8%;
+
         margin-right: auto;
-        margin-top: 2vh;
-    
+        margin-left: auto;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+
         border: 1.5px solid var(--dColorAccent);
         border-radius: 100vw;
-    
+
         cursor: pointer;
-    
+
         transition: color 0.3s ease-in-out, filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
     }
     #sectionSocialsGoBackButton:hover{

@@ -20,9 +20,9 @@
     .navButton {
         max-width: 90%;
 
-        max-height: 22%;
+        max-height: 20%;
 
-        margin: auto auto;
+        margin: 0 auto;
     }
     .navButtonText {
         font-size: 1.7rem;
@@ -80,7 +80,7 @@
 
         margin-right: auto;
         margin-left: auto;
-        margin-top: 3vh;
+        margin-top: 12vh;
         margin-bottom: 3vh;
 
         border: 1.5px solid var(--dColorAccent);
@@ -268,7 +268,8 @@
         font-weight: 900;
     
         padding: 0.6vh 1.3rem;
-        margin-right: 0.4vw;
+        margin-right: 1.5vw;
+        margin-top: 1vh;
     
         border-radius: 100vw;
     
@@ -287,7 +288,7 @@
     
         margin-top: 0.5vh;
     
-        text-align: justify;
+        text-align: left;
     }
     .sectionProjectsProjectParagraph a {
         position: relative;
@@ -484,20 +485,19 @@
         text-align: left;
     }
     #sectionWorkGoBackButton {
-        display: inline-flex;
+        position: relative;
+        display: block;
         color: var(--dColorAccent);
         
-        width: 8rem;
-    
-        margin-left: 6vw;
-        margin-right: auto;
-        margin-top: 12vh;
-    
+        width: 10rem;
+        margin-top: 6vh;
+        margin-bottom: 13vh;
+
         border: 1.5px solid var(--dColorAccent);
         border-radius: 100vw;
-    
+
         cursor: pointer;
-    
+
         transition: color 0.3s ease-in-out, filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
     }
     #sectionWorkGoBackButton:hover{
@@ -507,7 +507,7 @@
     #sectionWorkGoBackButtonText {
 
         font-family: Questrial;
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: 900;
     
         width: fit-content;
@@ -517,7 +517,7 @@
         margin-left: auto;
         margin-right: auto;
     
-        padding: 1.1rem 0;
+        padding: 0.8rem 0;
     }
 }
 
@@ -610,7 +610,7 @@
     
         margin-left: auto;
         margin-right: auto;
-        margin: 2% 1%;
+        margin: 5% 1%;
     
         border: 1px solid var(--dColorAccent);
     
@@ -658,7 +658,7 @@
     }
     .sectionSocialsSocialButtonDesc {
         width: 80%;
-        height: 20vh;
+        height: 25vh;
         margin-left: auto;
         margin-right: auto;
         color: var(--dColorAccent);

@@ -10,13 +10,10 @@ function DisplayProject (e) {
         document.getElementById('sectionProjectsProjectInfo').innerHTML = content;
     })
 
-    if (document.body.clientWidth < 1000) {
-        document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
-    }
 
 }
 
-function ProjectClick(e) {
+async function ProjectClick(e) {
     var inner = event.target.innerHTML;
 
     var projectButtons = document.getElementsByClassName("sectionProjectsProjectButtonActive");
@@ -34,6 +31,6 @@ function ProjectClick(e) {
             projectButtons[i].classList.add("sectionProjectsProjectButtonInactive");
         }
     }
-    
+    document.getElementById("sectionProjectsRSide").scrollIntoView({ behavior: "smooth", });
     document.getElementById("sectionProjectsProjectButtonActive").classList.remove("sectionProjectsProjectButtonInactive");
 }

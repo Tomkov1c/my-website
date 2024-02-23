@@ -45,6 +45,15 @@
     This project is still in early development. Any updates will be documented on this page.
     If you like the idea of this project, please consider contacting me and let me know if you have any ideas on what to add to the site.
 </p>
+<br>
+
+<h3>Case Converter</h3>
+<p class="sectionProjectsProjectParagraph">
+    This quickly converts the text in input in the field to a desired caps (e.g. "hello world" => "HELLO WORLD") <strong>Available on mobile</strong>.
+<br>
+</p>
+<img src="projects/lapschool/case-converter.png" alt="" class="sectionProjectsProjectImage">
+
 <div id="sectionProjectsProjectLinks">
     <a href="https://tomkov1c.github.io/lapschool/" target="_blank" class="sectionProjectsProjectLinkButton">
         <i class="fa-solid fa-arrow-up-right-from-square sectionProjectsProjectLinkButtonIcon"></i>

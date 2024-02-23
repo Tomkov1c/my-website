@@ -56,7 +56,7 @@
     I think that the fourth attempt turned out great. Hope you like it.
 </p>
 <div id="sectionProjectsProjectLinks">
-    <a href="https://tomkliner.com/" target="_blank" class="sectionProjectsProjectLinkButton">
+    <a href="https://tomkliner.xyz/" target="_blank" class="sectionProjectsProjectLinkButton">
         <i class="fa-solid fa-arrow-up-right-from-square sectionProjectsProjectLinkButtonIcon"></i>
         <p class="sectionProjectsProjectLinkButtonText">External</p>
     </a>

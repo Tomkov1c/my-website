@@ -1,14 +1,4 @@
-resume = "<h2>Dear Sir or Madam!</h2><br><br>\
-I am writing this letter to express my profound motivation and commitment to pursuing excellence in the field of technology, and to showcase my enthusiasm for contributing my skills to a dynamic and forward-thinking company.<br><br>\
-As a current student at the School of Electrical and Computer Engineering Velenje, I have not only acquired a solid foundation in the technical aspects of computing but have also cultivated a deep passion for web development and creative endeavors. My proficiency in programming languages such as C++, C#, and JavaScript, coupled with hands-on experience in web development technologies like HTML, CSS, PHP, and MySQL, positions me as a versatile and capable candidate.<br><br>\
-In addition to my technical skills, I am well-versed in utilizing design tools like Photoshop, Illustrator, Lightroom, and Figma, showcasing a keen eye for aesthetics and creativity. My familiarity with video editing tools such as Premier Pro and After Effects adds an extra dimension to my skill set.<br><br>\
-What sets me apart is not just my technical prowess but also my understanding of the importance of collaboration and teamwork. Having worked on various projects, I have honed my ability to contribute effectively to group efforts, maintain a positive attitude, and uphold a strong work ethic and mindset.<br><br>\
-I am excited about the possibility of applying my skills and knowledge to a real-world professional setting. Your company, known for mention something specific about the company, aligns perfectly with my career aspirations, and I am eager to contribute to its continued success.<br><br>\
-I sincerely appreciate your consideration of my application and look forward to the opportunity to discuss how my skills and experiences align with the goals of your esteemed company. Thank you for your time and consideration.<br><br>\
-Sincerely,<br>\
-Tom Kliner\
-<hr id=\"sectionWorkResumeExtender\">\
-"
+resume = "<h2>This page needs to be rewritten. Pls hire me.</h2>"
 
 document.getElementById("sectionWorkResume").innerHTML = resume;
 

@@ -171,27 +171,36 @@ section {
     
 }
 #sectionAboutWrapper {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    max-height: 89%;
 
     margin-left: 2.5vw;
     margin-top: 6vh;
     background-color: var(--dColorBackground);
 
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
 }
 #sectionAboutProfileImage {
     position: relative;
+    display: block;
 
     width: 20vw;
     height: 20vw;
 
-    margin: 13vw 0;
-    margin-right: 14vw;
+    margin: auto auto;
 
     border-radius: 100vw;
     outline: 4px var(--dColorBackground) solid;
     outline-offset: 3px;
     box-shadow: 0px 0px 248px -39px rgba(156,201,232,1);
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 
 }
 #sectionAboutUppertitle {
@@ -202,6 +211,8 @@ section {
     margin-left: 2.5vw;
     padding-top: 15vh;
     padding-bottom: 0.5vh;
+
+    display: block;
 }
 #sectionAboutTitle {
     color: var(--dColorText);
@@ -212,6 +223,8 @@ section {
     width: 1vw;
 
     margin-left: 2.5vw;
+
+    display: blocks;
 }
 #sectionAboutSubtitle {
     color: var(--dColorText);
@@ -221,8 +234,10 @@ section {
 
     margin-left: 2.5vw;
     margin-top: 2vh;
-
+    
     width: 37vw;
+
+    display: block;
 }
 #sectionAboutGoBackButton {
     position: relative;
@@ -230,10 +245,12 @@ section {
     color: var(--dColorAccent);
     
     width: 10rem;
+    height: fit-content;
 
     margin-left: 2.5vw;
-    margin-top: 8vh;
-    margin-bottom: 3vh;
+    margin-right: 2.5vw;
+    margin-top: auto;
+    margin-bottom: 15vh;
 
     border: 1.5px solid var(--dColorAccent);
     border-radius: 100vw;
@@ -245,21 +262,6 @@ section {
 #sectionAboutGoBackButton:hover{
     color: var(--dColorBackground);
     background-color: var(--dColorAccent);
-}
-#sectionAboutGoBackButtonText {
-
-    font-family: Questrial;
-    font-size: 1.3rem;
-    font-weight: 900;
-
-    width: fit-content;
-
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding: 0.8rem 0;
 }
 
 
@@ -447,8 +449,7 @@ blockquote {
     display: inline-flex;
     color: var(--dColorAccent);
     
-    width: 8vw;
-
+    width: 10rem;
 
     border: 1.5px solid var(--dColorAccent);
     border-radius: 100vw;
@@ -460,22 +461,6 @@ blockquote {
 #sectionProjectsGoBackButton:hover{
     color: var(--dColorBackground);
     background-color: var(--dColorAccent);
-}
-#sectionProjectsGoBackButtonText {
-
-    font-family: Questrial;
-    font-size: 1vw;
-    font-weight: 900;
-
-    width: fit-content;
-
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
 }
 #sectionProjectsProjectLinks {
     width: 100%;
@@ -619,22 +604,6 @@ blockquote {
 #sectionSocialsGoBackButton:hover{
     color: var(--dColorBackground);
     background-color: var(--dColorAccent);
-}
-#sectionSocialsGoBackButtonText {
-
-    font-family: Questrial;
-    font-size: 1.3rem;
-    font-weight: 900;
-
-    width: fit-content;
-
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
 }
 
 #sectionSocialsSocialButtonsWrapper {
@@ -808,8 +777,9 @@ blockquote {
     color: var(--dColorBackground);
     background-color: var(--dColorAccent);
 }
-#sectionWorkGoBackButtonText {
 
+
+.GoBackButtonText {
     font-family: Questrial;
     font-size: 1.3rem;
     font-weight: 900;
@@ -821,5 +791,10 @@ blockquote {
     margin-left: auto;
     margin-right: auto;
 
-    padding: 1.1rem 0;
+    padding: 1rem 0;
+
+    display: block;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }

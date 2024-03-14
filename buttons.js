@@ -1,4 +1,5 @@
-resume = "<h2>This page needs to be rewritten. Pls hire me.</h2>"
+resume = "<h2>This page needs to be rewritten. Pls hire me.</h2>\
+<hr id=\"sectionWorkResumeExtender\">"
 
 document.getElementById("sectionWorkResume").innerHTML = resume;
 

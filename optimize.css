@@ -53,10 +53,10 @@
     #sectionAboutTitle {
         color: var(--dColorText);
         font-family: Questrial;
-        font-size: 5rem;
+        font-size: 7rem;
         font-weight: 1000;
         
-        width: 1vw;
+        width: 100%;
     
         margin-left: 2.5vw;
     }
@@ -72,43 +72,18 @@
         width: 90%;
     }
     #sectionAboutGoBackButton {
-        position: relative;
-        display: block;
-        color: var(--dColorAccent);
-        
-        width: 10rem;
 
-        margin-right: auto;
         margin-left: auto;
-        margin-top: 12vh;
-        margin-bottom: 3vh;
-
-        border: 1.5px solid var(--dColorAccent);
-        border-radius: 100vw;
-
-        cursor: pointer;
-
-        transition: color 0.3s ease-in-out, filter 0.3s ease-in-out, background-color 0.3s ease-in-out;
-    }
-    #sectionAboutGoBackButton:hover{
-        color: var(--dColorBackground);
-        background-color: var(--dColorAccent);
-    }
-    #sectionAboutGoBackButtonText {
-    
-        font-family: Questrial;
-        font-size: 1.3rem;
-        font-weight: 900;
-    
-        width: fit-content;
-    
+        margin-right: auto;
         margin-top: auto;
-        margin-bottom: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin-bottom: 1vh;
+
+
+    }
+
+    #sectionAboutWrapper {
+        width: 100%;
     
-        padding-top: 1.5vh;
-        padding-bottom: 1.5vh;
     }
     
 

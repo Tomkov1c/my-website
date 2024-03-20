@@ -31,6 +31,6 @@ async function ProjectClick(e) {
             projectButtons[i].classList.add("sectionProjectsProjectButtonInactive");
         }
     }
-    document.getElementById("sectionProjectsRSide").scrollIntoView({ behavior: "smooth", });
+    document.getElementById("sectionProjectsProjectTitle").scrollIntoView({ behavior: "smooth", });
     document.getElementById("sectionProjectsProjectButtonActive").classList.remove("sectionProjectsProjectButtonInactive");
 }

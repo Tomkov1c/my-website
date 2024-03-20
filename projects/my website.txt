@@ -5,11 +5,8 @@
     <p class="sectionProjectsProjectTag">JavaScript (Vanilla)</p>
 </div>
 <p class="sectionProjectsProjectParagraph">
-    <strong>The website is not yet optimized for other screens.</strong>
-</p>
-<p class="sectionProjectsProjectParagraph">
     As a graphic designer, web designer, and aspiring programmer, I needed a place to showcase my skills and projects.
-    Since I have a basic understanding of HTML, CSS, and a little JavaScript, I decided to create my portfolio website.
+    Since I have a basic understanding of HTML, CSS, and a decent amount of JavaScript, I decided to create my portfolio website.
 </p>
 <h2>Design</h2>
 <p class="sectionProjectsProjectParagraph">

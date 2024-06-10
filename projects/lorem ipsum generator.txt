@@ -1,0 +1,38 @@
+<h1 id="sectionProjectsProjectTitle">Lorem Ipsum Generator</h1>
+                    <div id="sectionProjectsProjectTags">
+                        <p class="sectionProjectsProjectTag">Python</p>
+                        <p class="sectionProjectsProjectTag">Flow Launcher</p>
+                    </div>
+                    <img src="projects/lorem ipsum generator/hero.gif" alt="" class="sectionProjectsProjectImage">
+                    <p class="sectionProjectsProjectParagraph">
+                        Generate Lorem Ipsum paragraphs / words / sentences from Flow Launcher.
+                        <br>
+                        Simply type <span class="sectionProjectsProjectCommand">lorem</span> to start. Select what you want to generate. Add a number to specify the amount of ___ generated (optional). Press <span class="sectionProjectsProjectCommand">ctrl + v</span> to paste.
+                    </p>
+                    <img src="projects/lorem ipsum generator/screenshot.gif" alt="" class="sectionProjectsProjectImage">
+                    <h2>Features</h2>
+                    <ul>
+                        <li>- Generate Words (custom amount)</li>
+                        <li>- Generate Paragraphs (custom amount)</li>
+                        <li>- Generate a Sentence</li>
+                    </ul>
+                    <h2>Planed Features</h2>
+                    <ul>
+                        <li>- Change default sentence length</li>
+                        <li>- Change default paragraphs length</li>
+                    </ul>
+                    <h2>Installation</h2>
+                    <p class="sectionProjectsProjectParagraph">
+                        Type this in the flow launcher and press enter.
+                    </p>
+                    <p class="sectionProjectsProjectCode">pm install lorem</p>
+                    <div id="sectionProjectsProjectLinks">
+                        <a href="https://github.com/Tomkov1c/Lorem-Ipsum-Generator" target="_blank" class="sectionProjectsProjectLinkButton">
+                            <i class="fa-brands fa-github sectionProjectsProjectLinkButtonIcon"></i>
+                            <p class="sectionProjectsProjectLinkButtonText">GitHub</p>
+                        </a>
+                    </div>
+                    <p class="sectionProjectsProjectAuthorsNote">
+                        I'm looking towards rewriting the whole plugin in C#, because I don't like python + it's slow
+                    </p>
+                    <hr id="sectionProjectsProjectInfoExtraSpace">

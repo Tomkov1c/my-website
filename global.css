@@ -3,6 +3,10 @@
     src: url(fonts/DMSans-Medium.ttf);
 }
 @font-face {
+    font-family: DMSans-Light;
+    src: url(fonts/DMSans-Light.ttf);
+}
+@font-face {
     font-family: RobotoMono;
     src: url(fonts/RobotoMono-Regular.ttf);
 }

@@ -70,11 +70,11 @@ body {
     margin-top: -4.2rem;
 }
 #sec1 > p:first-of-type {
-    margin-left: calc((100% / 3) - 2rem);;
+    margin-left: calc(((100% / 3) + 0.3rem));
 }
 #sec1 > p {
-    width: calc((100% / 3) - 2rem);
-    margin: 0 1rem;
+    width: calc((100% / 3) - 1rem);
+    margin: 0 0.5rem;
     font-size: 1rem;
 
     color: var(--colorTextTerciary);
@@ -156,25 +156,24 @@ body {
 
 
 #collums3 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
 }
-#collums3 > div {
-    width: calc((100% / 3) - 2rem);
-
-}
-#collums3 > div:nth-child(2) {
-    width: calc((100% / 3) - 2rem);
-    height: 20vh;
-
-    margin: 0 1rem;
-}
+#collums3 > div:nth-child(1) { grid-area: 1 / 1 / 2 / 2; }
+#collums3 > div:nth-child(2) { grid-area: 1 / 2 / 2 / 3; }
+#collums3 > div:nth-child(3) { grid-area: 1 / 3 / 2 / 4; }
 .projectListing {
     display: block;
+    height: fit-content;
 
     cursor: pointer;
 }
 .projectListing > img {
     width: 100%;
+    border-radius: 12px;
 
     transition: opacity 0.3s ease-in-out;
 }
@@ -183,7 +182,7 @@ body {
 }
 .projectListing > h1 {
     font-size: 1.2rem;
-    font-family: RobotoMono;
+    font-family: DMSans-Light;
 }
 .projectListing > p {
     font-size: 0.8rem;

@@ -134,6 +134,22 @@ body > section > aside {
 
     padding-left: 5rem;
 }
+/* body > section > aside > img#banner {
+    width: 100%;
+    display: block;
+
+    border-radius: 7px;
+    margin-bottom: 0.5rem;
+
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+body > section > aside > img#banner.visible {
+    display: block;
+
+    opacity: 1;
+    
+} */
 body > section > aside > h1#title {
     width: 100%;
     display: block;

@@ -82,10 +82,16 @@ window.setInterval( function(){
 },50)
 
 function visibility() {
-    const element = document.getElementById('documentTitle');
+    element = document.getElementById('documentTitle');
     if (isElementInViewport(element)) {
         document.getElementById('title').classList.add("visible");
     } else {
         document.getElementById('title').classList.remove("visible");
     }
+    // element = document.getElementById('documentTitle');
+    // if (isElementInViewport(element)) {
+    //     document.getElementById('banner').classList.add("visible");
+    // } else {
+    //     document.getElementById('banner').classList.remove("visible");
+    // }
 }

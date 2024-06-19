@@ -170,6 +170,8 @@ body {
     height: fit-content;
 
     cursor: pointer;
+
+    text-decoration: none;
 }
 .projectListing > img {
     width: 100%;
@@ -183,9 +185,14 @@ body {
 .projectListing > h1 {
     font-size: 1.2rem;
     font-family: DMSans-Light;
+
+    text-decoration: none;
 }
 .projectListing > p {
     font-size: 0.8rem;
     font-family: RobotoMono-Light;
     opacity: 0.5;
+
+    text-decoration: none;
+}
 }

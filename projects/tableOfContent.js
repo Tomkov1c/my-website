@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         heading.id = id;
         const link = document.createElement("a");
         link.href = `#${id}`;
-        link.innerHTML = "<span>" + "&#60;" + heading.tagName.toLowerCase() + "&#62;" + "</span>" + heading.textContent;
+        link.innerHTML = heading.textContent + "<span></span>";
         link.dataset.type = heading.tagName.toLowerCase(); // For styling based on heading level
         toc.appendChild(link);
     });
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }, {
-        rootMargin: "-50% 0px -50% 0px", // Adjust to determine when the section is considered active
+        rootMargin: "-25% 0px -85% 0px", // Adjust to determine when the section is considered active
         threshold: 0
     });
 

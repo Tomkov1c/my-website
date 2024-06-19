@@ -14,9 +14,9 @@ body > img:first-of-type {
 }
 body > h1:first-of-type {
     font-size: 5rem;
-    background: linear-gradient(180deg, var(--colorBackground) 20%, rgba(0,212,255,0) 100%);
+    background-color: var(--colorBackground);
     position: sticky;
-    padding-bottom: 10rem;
+    padding-bottom: 0.5rem;
     top: 0vh;
 }
 body > h1:first-of-type + * {
@@ -48,49 +48,58 @@ body > section > aside {
     align-self: flex-start;
     height: auto;
     display: block;
-    top: 10vh;
+    top: 11vh;
 }
 body > section > aside > a {
-   display: block;
+   display: flex;
    width: fit-content;
 
    margin: 0.5rem 0 0.5rem auto;
-   padding-right: var(--padding-right);
+   /* padding-right: var(--padding-right); */
 
    font-size: 1.5rem;
    color: var(--colorTextTerciary);
 
+   opacity: 0.5;
+
    text-decoration: none;
-   border-right: 1px solid var(--colorTextTerciary);
+   /* border-right: 1px solid var(--colorTextTerciary); */
 
-   transition: padding-right 0.5s ease-out, border-right 0.5s ease-out, color 0.5s ease-out;
-}
-body > section > aside > a[data-type = "h1"] {
-    --padding-right: 2rem;
-    font-size: 1.5rem;
-}
-body > section > aside > a[data-type = "h2"] {
-    --padding-right: 1.5rem;
-    font-size: 1.25rem;
-
-}
-body > section > aside > a[data-type = "h3"] {
-    --padding-right: 1rem;
-    font-size: 1rem;
+   transition: opacity 0.5s ease-out, color 0.5s ease-out;
 }
 body > section > aside > a > span {
-    display: none;
+    display: block;
 
-    margin: auto 0.5rem;
-    font-size: 0.8rem;
-    height: fit-content;
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 100vw;
+    background-color: var(--colorTextTerciary);
 
-    opacity: 0.5;
+    margin: auto 1rem;
 
-    color: var(--colorTextTerciary);
-    font-family: RobotoMono;
- }
+
+    transition: width 0.5s ease-out;
+}
+body > section > aside > a[data-type = "h1"] > span {
+    --width: 2rem;
+    width: var(--width);
+}
+body > section > aside > a[data-type = "h2"] > span {
+    --width: 1rem;
+    width: var(--width);
+}
+body > section > aside > a[data-type = "h3"] > span {
+    --width: 0.3rem;
+    width: var(--width);
+}
 body > section > aside > a.active {
-    border-right: 20px solid var(--colorText);
+    /* border-right: 20px solid var(--colorText); */
     color: var(--colorText);
+
+    opacity: 1;
+}
+body > section > aside > a.active > span {
+    width: calc(var(--width) + 2rem) !important;
+    background-color: var(--colorText);
+
 }

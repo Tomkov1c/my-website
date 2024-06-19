@@ -1,0 +1,192 @@
+header > img {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.8rem;
+    background-color: var(--colorTerciary);
+    object-fit: contain;
+
+    border-radius: 4px;
+    z-index: 5;
+    outline: 3px solid transparent;
+    outline-offset: 2px;
+
+    transition: outline 0.2s ease-in-out;
+}
+header > img:hover {
+    outline: 3px solid var(--colorPrimary);
+    outline-offset: 2px;
+}
+body {
+   padding: 2rem;
+   width: calc(100vw - 4rem);
+}
+
+
+#sidebar[data-open="true"] {
+    display: block;
+    height: 101vh;
+    width: 37vw;
+    padding-left: 3vw;
+    background-color: #000000da;
+    backdrop-filter: blur(20px);
+
+    position: fixed;
+
+    margin-left: -2rem;
+    margin-top: -6rem;
+
+    z-index: 3;
+}
+#sidebar {
+    display: block;
+    height: 101vh;
+    width: 40vw;
+    background-color: #000000da;
+    backdrop-filter: blur(20px);
+
+    position: fixed;
+
+    margin-left: calc(-2rem - 40vw);
+    margin-top: -6rem;
+
+    z-index: 3;
+
+    transition: margin-left 0.3s ease-in-out;
+}
+#sidebar > button{
+    background-color: transparent;
+    border: 0px solid transparent;
+
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+
+
+#sec1 {
+    display: flex;
+
+    margin-top: -4.2rem;
+}
+#sec1 > p:first-of-type {
+    margin-left: calc((100% / 3) - 2rem);;
+}
+#sec1 > p {
+    width: calc((100% / 3) - 2rem);
+    margin: 0 1rem;
+    font-size: 1rem;
+
+    color: var(--colorTextTerciary);
+
+    z-index: 1;
+}
+
+#pinnedProject {
+    padding: 6rem 0;
+}
+#pinnedProject > p {
+    font-family: RobotoMono;
+    color: var(--colorTextTerciary);
+}
+#pinnedProject > div {
+    padding: 1rem 0;
+
+    display: flex;
+}
+#pinnedProject > div > img {
+    border-radius: 2px;
+    margin-right: 2rem;
+    width: 40vw;
+}
+#pinnedProject > div > div {
+    margin: auto 0;
+}
+#pinnedProject > div > div > h1 {
+    font-size: 4rem;
+}
+#pinnedProject > div > div > p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: DMSans;
+    color: var(--colorTextTerciary);
+}
+#pinnedProject > div > div > a {
+    font-size: 1rem;
+    font-family: DMSans;
+
+    margin-top: 2rem;
+
+    display: block;
+    width: fit-content;
+
+    text-decoration: none;
+    color: var(--colorTerciary);
+
+    padding: 0.7rem 2rem;
+    background-color: var(--colorPrimary);
+    border-radius: 3px;
+
+}
+.projectTags {
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.projectTags > p {
+    font-family: RobotoMono-Medium;
+    color: var(--colorSecondary);
+
+    margin-right: 0.5rem;
+    padding: 0.1rem 1rem 0.4rem;
+    border: 2px solid var(--colorSecondary);
+    border-radius: 100vw;
+}
+
+.sectionSeperator {
+    width: 100%;
+    
+    opacity: 0.5;
+    font-family: RobotoMono;
+    font-size: 1rem;
+    color: var(--colorTextTerciary);
+
+    margin: 1rem 0;
+}
+
+
+#collums3 {
+    display: flex;
+}
+#collums3 > div {
+    width: calc((100% / 3) - 2rem);
+
+}
+#collums3 > div:nth-child(2) {
+    width: calc((100% / 3) - 2rem);
+    height: 20vh;
+
+    margin: 0 1rem;
+}
+.projectListing {
+    display: block;
+
+    cursor: pointer;
+}
+.projectListing > img {
+    width: 100%;
+
+    transition: opacity 0.3s ease-in-out;
+}
+.projectListing:hover > img{
+    opacity: 0.7;
+}
+.projectListing > h1 {
+    font-size: 1.2rem;
+    font-family: RobotoMono;
+}
+.projectListing > p {
+    font-size: 0.8rem;
+    font-family: RobotoMono-Light;
+    opacity: 0.5;
+}

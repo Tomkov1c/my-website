@@ -1,0 +1,37 @@
+@font-face {
+    font-family: DMSans;
+    src: url(fonts/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoMono;
+    src: url(fonts/RobotoMono-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoMono-Light;
+    src: url(fonts/RobotoMono-Light.ttf);
+}
+@font-face {
+    font-family: RobotoMono-Medium;
+    src: url(fonts/RobotoMono-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: DMSans;
+    color: var(--colorText);
+}
+
+:root {
+    --colorBackground: #0F0F0F;
+    --colorText: #f0f0f0;
+    --colorPrimary: #3e7cb1;
+    --colorSecondary: #c8963e;
+    --colorTerciary: #0A0A0A;
+    --colorTextTerciary: #6A6A6A;
+}
+
+body {
+    background-color: var(--colorBackground);
+}

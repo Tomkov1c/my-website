@@ -76,10 +76,11 @@ function isElementInViewport(element) {
     return isVisible;
 }
 
+window.onscroll = function() {visibility()};
 
-window.setInterval( function(){
-    visibility();
-},50)
+// window.setInterval( function(){
+//     visibility();
+// },50)
 
 function visibility() {
     element = document.getElementById('documentTitle');

@@ -1,3 +1,6 @@
+header {
+    display: flex;
+}
 header > img {
     width: 2rem;
     height: 2rem;
@@ -15,6 +18,14 @@ header > img {
 header > img:hover {
     outline: 3px solid var(--colorPrimary);
     outline-offset: 2px;
+}
+header > h1 {
+    margin: auto 1rem;
+    display: block;
+
+    font-size: 1.5rem;
+
+    z-index: 5;
 }
 body {
    padding: 2rem;
@@ -67,14 +78,10 @@ body {
 #sec1 {
     display: flex;
 
-    margin-top: -4.2rem;
-}
-#sec1 > p:first-of-type {
-    margin-left: calc(((100% / 3) + 0.3rem));
 }
 #sec1 > p {
-    width: calc((100% / 3) - 1rem);
-    margin: 0 0.5rem;
+    width: calc(100% - 1rem);
+    margin: 3rem 0.5rem 0.5rem;
     font-size: 1rem;
 
     color: var(--colorTextTerciary);

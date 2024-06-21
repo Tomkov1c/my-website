@@ -39,6 +39,10 @@ body > section > article {
 body > section > article:first-child{
     margin-top: 4.5rem;
 }
+::selection {
+    background-color: var(--colorSecondary);
+    color: var(--colorBackground);
+}
 body > section > article > h1 {
     font-size: 3rem;
     font-family: DMSans-Bold;
@@ -128,6 +132,8 @@ body > section > aside {
     height: auto;
     display: block;
     top: 11vh;
+
+    user-select: none;
 
     margin-left: 0;
     margin-right: auto;

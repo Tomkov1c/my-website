@@ -38,7 +38,7 @@ body {
     height: 101vh;
     width: 37vw;
     padding-left: 3vw;
-    background-color: #000000da;
+    background-color: #0a0a0aaf;
     backdrop-filter: blur(20px);
 
     position: fixed;
@@ -52,7 +52,7 @@ body {
     display: block;
     height: 101vh;
     width: 40vw;
-    background-color: #000000da;
+    background-color: #0a0a0aaf;
     backdrop-filter: blur(20px);
 
     position: fixed;
@@ -76,18 +76,38 @@ body {
 
 
 #sec1 {
-    display: flex;
+    
 
 }
-#sec1 > p {
-    width: calc(100% - 1rem);
-    margin: 3rem 0.5rem 0.5rem;
+#sec1 > div:first-of-type {
+    display: flex;
+
+    margin-bottom: 2rem;
+}
+#sec1 > div > p {
+    width: calc(100% - 0.5rem);
+    margin: 3rem 1rem 0.5rem 0rem;
     font-size: 1rem;
 
     color: var(--colorTextTerciary);
+    text-align: justify;
 
     z-index: 1;
 }
+#sec1 > div > p:last-of-type {
+    margin-right: 0rem;
+    margin-left: 1rem;
+}
+#sec1 > div:last-of-type {
+    display: flex;
+
+    overflow-x: hidden;
+}
+
+
+
+
+
 
 #pinnedProject {
     padding: 6rem 0;
@@ -202,4 +222,46 @@ body {
 
     text-decoration: none;
 }
+
+
+
+#work {
+    margin-top: 6rem;
+}
+#work > div {
+    display: flex;
+}
+#work > div > a {
+    width: 19rem;
+    height: 13rem;
+    
+    display: block;
+    object-fit: contain;
+
+    text-decoration: none;
+}
+#work > div > a > img {
+    width: 15rem;
+    height: 5rem;
+
+    padding: 1.5rem;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    background-color: var(--colorTerciary);
+
+    border: 1px solid #141414;
+
+    object-fit: contain;
+
+    transition: filter 0.3s ease-out;
+}
+#work > div > a:hover > img {
+    filter: grayscale(0%);
+}
+#work > div > a > h1 {
+    width: fit-content;
+
+    font-family: RobotoMono-Light;
+    font-size: 0.8rem;
+    color: var(--colorTextTerciary);
 }
